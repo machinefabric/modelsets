@@ -1,0 +1,55 @@
+name: Add Model Set
+description: Propose a new curated model set for the canonical models registry.
+title: "Add model set: <name>"
+labels:
+  - add-model-set
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this template to propose a new curated model set for [models.machinefabric.com](https://models.machinefabric.com/manifest).
+
+        A model set is a user-facing bundle of concrete model recommendations mapped onto MachineFabric's model slots. Good sets have a clear audience, a coherent hardware target, and models that are actually fit for the slots they fill.
+  - type: input
+    id: set_name
+    attributes:
+      label: Proposed set name
+      description: The end-user-facing name of the set.
+      placeholder: M2/M3 Workhorse
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What is this set for?
+      description: Describe the target user, hardware envelope, and why this set should exist.
+      placeholder: A balanced set for M2 and M3 Macs with enough GPU headroom for stronger local reasoning without feeling sluggish.
+    validations:
+      required: true
+  - type: textarea
+    id: assignments
+    attributes:
+      label: Suggested model assignments
+      description: |
+        List each slot and the concrete model you recommend for it. One per line.
+      placeholder: |
+        - media:candle;embeddings;model-spec;repo-safetensors;textable;tokenizer-unified -> BAAI/bge-small-en-v1.5
+        - media:gguf;llm;model-spec;textable;tokenizer-embedded-gguf -> bartowski/Hermes-3-Llama-3.1-8B-GGUF
+    validations:
+      required: true
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Why these models?
+      description: Explain why these concrete models fit the set better than the current recommendations.
+    validations:
+      required: true
+  - type: checkboxes
+    id: acknowledgements
+    attributes:
+      label: Acknowledgements
+      options:
+        - label: I believe the suggested models actually exist and are publicly accessible.
+          required: true
+        - label: I understand acceptance depends on fit, provenance, and end-user clarity, not just popularity.
+          required: true

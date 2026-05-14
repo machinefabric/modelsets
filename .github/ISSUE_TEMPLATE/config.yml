@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: MachineFabric homepage
+    url: https://machinefabric.com
+    about: Background on the wider MachineFabric project that these curated model sets belong to.
+  - name: Canonical models registry
+    url: https://models.machinefabric.com/manifest
+    about: The live registry of curated model sets and concrete model configs.
+  - name: Models page
+    url: https://machinefabric.com/curated-models
+    about: Browse the currently published curated sets.
+  - name: CapDAG registry
+    url: https://capdag.com
+    about: Registry of the standard capability and media URNs that model suggestions must ultimately satisfy.

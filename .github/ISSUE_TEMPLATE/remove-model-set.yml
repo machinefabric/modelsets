@@ -1,0 +1,29 @@
+name: Remove Model Set
+description: Request that a curated model set be removed from the canonical models registry.
+title: "Remove model set: <name>"
+labels:
+  - remove-model-set
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this template when a curated model set should be removed from [models.machinefabric.com](https://models.machinefabric.com/manifest).
+  - type: input
+    id: target_set
+    attributes:
+      label: Set id or title
+      placeholder: code-companion
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: Why should it be removed?
+      description: Explain whether the set is obsolete, misleading, duplicated, unsafe, or superseded.
+    validations:
+      required: true
+  - type: input
+    id: replacement
+    attributes:
+      label: Replacement set (optional)
+      description: If another set should replace it, name it here.

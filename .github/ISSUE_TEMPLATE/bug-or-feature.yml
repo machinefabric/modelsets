@@ -1,0 +1,17 @@
+name: Bug, Feature Request, or Question
+description: Anything about curated model suggestions that is not a submission, removal, or concern report.
+title: "<short summary>"
+labels:
+  - question
+body:
+  - type: markdown
+    attributes:
+      value: |
+        For new curated sets use [Add Model Set](../../issues/new?template=add-model-set.yml). For changes to an existing recommendation use [Suggest Model Change](../../issues/new?template=suggest-model-change.yml). For removals use [Remove Model Set](../../issues/new?template=remove-model-set.yml).
+  - type: textarea
+    id: summary
+    attributes:
+      label: What's going on?
+      description: Describe the bug, question, or request as clearly as you can.
+    validations:
+      required: true
