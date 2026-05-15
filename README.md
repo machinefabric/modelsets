@@ -5,9 +5,9 @@ The public submissions inbox for curated model sets to be added to the
 registry.
 
 If you want MachineFabric to ship a new curated model set by default,
-or you want an existing curated recommendation changed or removed,
-propose it here. We curate every submission by hand. Once we review a
-proposal and publish it to the live registry, it moves from
+or you want existing curated recommendations reviewed, corrected, or
+retired, propose it here. We curate every submission by hand. Once we
+review a proposal and publish it to the live registry, it moves from
 `submitted.txt` to `accepted.txt`.
 
 ## Submitting a model set
@@ -29,22 +29,16 @@ slots, with a clear audience and hardware target.
   [capfab](https://github.com/machinefabric/capfab/issues/new/choose).
 - All submitted material must comply with our [code of conduct](#code-of-conduct).
 
-## Changing a recommendation
+## Feedback on curated recommendations
 
-You can propose changing an existing curated recommendation by opening a
-[Suggest Model Change](../../issues/new?template=suggest-model-change.yml)
-issue. Use this when a set should swap one model for another, add
-coverage for a missing slot, or retire a recommendation that no longer
-fits.
+For everything that is not a brand-new model set submission, open
+[Model Suggestions Feedback](../../issues/new?template=feedback.yml).
+Use it for:
 
-## Removing a model set
-
-You can request that an already-published curated set be removed from
-the registry by opening a
-[Remove Model Set](../../issues/new?template=remove-model-set.yml)
-issue. Removals are weighed against user impact, so we will usually
-prefer a clear replacement or deprecation path over a silent
-disappearance.
+- changing a recommendation inside an existing set
+- flagging a stale, unsafe, or misleading recommendation
+- suggesting that a curated set be removed or replaced
+- asking questions or reporting bugs in the published curated sets
 
 ## How this repository works
 
@@ -57,9 +51,9 @@ modelsets/
 
 The flow:
 
-1. You open an [Add Model Set](../../issues/new?template=add-model-set.yml),
-   [Suggest Model Change](../../issues/new?template=suggest-model-change.yml),
-   or [Remove Model Set](../../issues/new?template=remove-model-set.yml) issue.
+1. You open either an
+   [Add Model Set](../../issues/new?template=add-model-set.yml) issue or a
+   [Model Suggestions Feedback](../../issues/new?template=feedback.yml) issue.
 2. A maintainer records the proposal in `submitted.txt`. The issue
    stays open while we review it.
 3. Once the change lands in the
@@ -76,8 +70,7 @@ in response to a corresponding issue.
 
 ## Other channels
 
-- [Model safety or provenance concern](../../issues/new?template=report-model-concern.yml)
-- [Bug, feature request, or question](../../issues/new?template=bug-or-feature.yml)
+- [Model Suggestions Feedback](../../issues/new?template=feedback.yml)
 
 ## Code of conduct
 

@@ -1,0 +1,38 @@
+name: Model Suggestions Feedback
+description: Feedback on published curated model sets and recommendations.
+title: "<short summary>"
+labels:
+  - feedback
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this template for feedback on existing curated model sets and recommendations.
+
+        Good uses for this template:
+        - suggest changing a recommended model inside an existing set
+        - ask for a curated set to be removed or replaced
+        - flag a safety, provenance, or quality concern
+        - report a bug, ask a question, or suggest a non-submission improvement
+
+        For a brand-new curated set, use [Submit a Model Set](../../issues/new?template=add-model-set.yml).
+  - type: input
+    id: affected_set
+    attributes:
+      label: Affected set or recommendation
+      description: Name the set, slot, or published recommendation if one is involved.
+      placeholder: everyday-essentials / gguf llm slot
+  - type: textarea
+    id: summary
+    attributes:
+      label: What should change?
+      description: Describe the problem, requested change, or concern as clearly as you can.
+    validations:
+      required: true
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Why?
+      description: Explain the fit, hardware, provenance, safety, quality, or usability reason behind the feedback.
+    validations:
+      required: true
