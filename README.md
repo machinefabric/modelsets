@@ -24,7 +24,7 @@ slots, with a clear audience and hardware target.
 - Every proposed model must be fit for the slot it fills.
 - The proposal must explain the target user, hardware envelope, and
   why the chosen models belong together as a set.
-- If a model depends on a capability or media spec that is not already
+- If a model depends on a capability or media def that is not already
   in the standard registry, propose that separately via
   [capfab](https://github.com/machinefabric/capfab/issues/new/choose).
 - All submitted material must comply with our [code of conduct](#code-of-conduct).
