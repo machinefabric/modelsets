@@ -12,7 +12,7 @@ review a proposal and publish it to the live registry, it moves from
 
 ## Submitting a model set
 
-[**Submit a Model Set**](../../issues/new?template=add-model-set.yml)
+[**Submit a Model Set**](https://github.com/machinefabric/modelsets/issues/new?template=add-model-set.yml)
 
 Anyone can propose a model set. A model set is a user-facing bundle of
 concrete model recommendations mapped onto MachineFabric's model
@@ -32,7 +32,7 @@ slots, with a clear audience and hardware target.
 ## Feedback on curated recommendations
 
 For everything that is not a brand-new model set submission, open
-[Model Suggestions Feedback](../../issues/new?template=feedback.yml).
+[Model Suggestions Feedback](https://github.com/machinefabric/modelsets/issues/new?template=feedback.yml).
 Use it for:
 
 - changing a recommendation inside an existing set
@@ -52,8 +52,8 @@ modelsets/
 The flow:
 
 1. You open either an
-   [Add Model Set](../../issues/new?template=add-model-set.yml) issue or a
-   [Model Suggestions Feedback](../../issues/new?template=feedback.yml) issue.
+   [Add Model Set](https://github.com/machinefabric/modelsets/issues/new?template=add-model-set.yml) issue or a
+   [Model Suggestions Feedback](https://github.com/machinefabric/modelsets/issues/new?template=feedback.yml) issue.
 2. A maintainer records the proposal in `submitted.txt`. The issue
    stays open while we review it.
 3. Once the change lands in the
@@ -70,7 +70,7 @@ in response to a corresponding issue.
 
 ## Other channels
 
-- [Model Suggestions Feedback](../../issues/new?template=feedback.yml)
+- [Model Suggestions Feedback](https://github.com/machinefabric/modelsets/issues/new?template=feedback.yml)
 
 ## Code of conduct
 
