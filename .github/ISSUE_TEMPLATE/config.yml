@@ -7,8 +7,8 @@ contact_links:
     url: https://models.machinefabric.com/manifest
     about: The live registry of curated model sets and concrete model configs.
   - name: Models page
-    url: https://machinefabric.com/curated-models
+    url: https://machinefabric.com/models
     about: Browse the currently published curated sets.
   - name: CapDAG registry
-    url: https://capdag.com
+    url: https://machinefabric.com/capdag/browse
     about: Registry of the standard capability and media URNs that model suggestions must ultimately satisfy.

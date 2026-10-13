@@ -1,0 +1,49 @@
+name: Share Your Experience with a Model
+description: Tell us how a model in a published set worked for you.
+title: "Experience: <model>"
+labels:
+  - feedback
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Tell us how a recommended model worked on your machine: what you used it for, how good and how fast it was, and anything that went wrong. Reports like this decide which models the sets keep recommending.
+
+        Opened from a model on [machinefabric.com/models](https://machinefabric.com/models), this form already names the model and where it is recommended.
+  - type: input
+    id: model
+    attributes:
+      label: Model
+      description: The model, as the set names it.
+      placeholder: MaziyarPanahi/Mistral-7B-Instruct-v0.3-GGUF
+    validations:
+      required: true
+  - type: input
+    id: recommendation
+    attributes:
+      label: Where it is recommended
+      description: The set, and the engine and job the model is recommended for in it.
+      placeholder: classic-local-starter / gguf llm slot
+  - type: dropdown
+    id: outcome
+    attributes:
+      label: How did it go?
+      options:
+        - It worked well
+        - It worked, with problems
+        - It did not work
+    validations:
+      required: true
+  - type: textarea
+    id: experience
+    attributes:
+      label: Your experience
+      description: What you used it for, how good the results were, how fast it ran, and anything that went wrong.
+    validations:
+      required: true
+  - type: input
+    id: machine
+    attributes:
+      label: Your machine
+      description: Computer, chip, memory and operating system.
+      placeholder: MacBook Air M2, 16 GB, macOS 26

@@ -29,6 +29,13 @@ slots, with a clear audience and hardware target.
   [capfab](https://github.com/machinefabric/capfab/issues/new/choose).
 - All submitted material must comply with our [code of conduct](#code-of-conduct).
 
+## Your experience with a model
+
+Used a recommended model? Tell us how it went in
+[Share Your Experience with a Model](https://github.com/machinefabric/modelsets/issues/new?template=model-experience.yml).
+Each model on [machinefabric.com/models](https://machinefabric.com/models)
+opens this form with the model and where it is recommended filled in.
+
 ## Feedback on curated recommendations
 
 For everything that is not a brand-new model set submission, open
